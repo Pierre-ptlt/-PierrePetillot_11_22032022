@@ -1,0 +1,23 @@
+.header-wrapper {
+    display: flex;
+    padding: 10px 80px;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 200px;
+    height: 100px;
+}
+
+.header-nav {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-item {
+    color: #FF6060;
+    font-weight: normal;
+    font-size: 24px;
+}

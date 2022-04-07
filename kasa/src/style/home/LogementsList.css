@@ -1,0 +1,31 @@
+
+.logements-list-wrapper {
+    background-color: #F6F6F6;
+    border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 89%;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.logement-item {
+    margin: auto;
+    margin-top: 40px;
+    width: 340px;
+    height: 340px;
+    background: linear-gradient(180deg, #FF6060 0%, rgba(0, 0, 0, 0.5) 100%);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.logement-title {
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    width: 60%;
+}

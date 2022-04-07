@@ -1,0 +1,23 @@
+.banner-wrapper {
+    position: relative;
+    display: flex;
+    padding: 0% 90px;
+    width: 89%;
+    height: 223px;
+}
+
+.banner {
+    filter: brightness(40%);
+    border-radius: 25px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.banner-text {
+    position: absolute;
+    top: 30px;
+    left: 400Px;
+    color: white;
+    font-weight: 500;
+    font-size: 48px;
+}
