@@ -7,7 +7,8 @@
 }
 
 .banner {
-    filter: brightness(40%);
+    height: 223px;
+    filter: brightness(70%);
     border-radius: 25px;
     width: 100%;
     object-fit: cover;
@@ -16,8 +17,28 @@
 .banner-text {
     position: absolute;
     top: 30px;
-    left: 400Px;
+    left: 30%;
     color: white;
     font-weight: 500;
     font-size: 48px;
+}
+
+@media  screen and (max-width: 768px) {
+
+    .banner-wrapper {
+        height: 111px;
+        padding: 0% 25px;
+    }
+
+    .banner {
+        object-fit: fill;
+        height: 111px;
+    }
+
+    .banner-text {
+        width: 50%;
+        top: 10px;
+        left: 10%;
+        font-size: 24px;
+    }
 }
