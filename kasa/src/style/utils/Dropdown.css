@@ -45,3 +45,20 @@
 .dropdown-content-wrapper {
     margin: 36px 27px 19px 18px;
 }
+
+@media screen and (max-width: 768px) {
+    .dropdown-wrapper {
+        margin-left: 4.5%;
+        width: 85%;
+    }
+
+    .wrapper-general {
+        width: 100%;
+    }
+
+    .dropdown-content {
+        margin-left: 5%;
+        width: 95%;
+        font-size: 12px;
+    }
+}

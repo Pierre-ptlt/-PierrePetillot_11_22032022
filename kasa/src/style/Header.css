@@ -42,10 +42,12 @@
     }
 
     .header-nav {
-        width: 30%;
+        width: 40%;
     }
 
     .nav-item {
         font-size: 12px;
+        display: block;
+        width: unset;
     }
 }

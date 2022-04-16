@@ -41,6 +41,16 @@
 
 @media screen and (max-width: 768px) {
     .logements-list-wrapper {
+        margin-top: 10px;
         background-color: unset;
+        flex-direction: column;
+    }
+
+    .logement-item {
+        width: 100%;
+    }
+
+    .logement-image {
+        width: 90%;
     }
 }
