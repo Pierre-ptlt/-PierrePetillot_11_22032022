@@ -1,4 +1,4 @@
-.dropdown-wrapper {
+.dropdown-wrapper-logement {
     margin-top: 33px;
     position: relative;
     z-index: 99;
@@ -13,50 +13,49 @@
     justify-content: space-between;
 }
 
-.dropdown-name {
+.dropdown-name-logement {
     font-size: 22px;
     font-weight: 520;
     width: 90%;
 }
 
-.dropdown-button {
+.dropdown-button-logement {
     margin-right: 10px;
     width: 20px;
 }
 
-.dropdown-button-open {
+.dropdown-button-open-logement {
     margin-right: 11px;
     width: 20px;
     transform: rotate(180deg);
     transition: ease 0.5s all;
 }
 
-.dropdown-content {
+.dropdown-content-logement {
     margin-top: -4px;
     display: flex;
-    justify-content: center;
-    width: 93.5%;
+    width: 95%;
     background-color: #F6F6F6;
     color: #FF6060;
     border-radius: 0px 0px 5px 5px;
     font-size: 24px;
 }
 
-.dropdown-content-wrapper {
+.dropdown-content-wrapper-logement {
     margin: 36px 27px 19px 18px;
 }
 
 @media screen and (max-width: 768px) {
-    .dropdown-wrapper {
+    .dropdown-wrapper-logement {
         margin-left: 4.5%;
         width: 85%;
     }
 
-    .wrapper-general {
+    .wrapper-general-logement {
         width: 100%;
     }
 
-    .dropdown-content {
+    .dropdown-content-logement {
         margin-left: 5%;
         width: 95%;
         font-size: 12px;
