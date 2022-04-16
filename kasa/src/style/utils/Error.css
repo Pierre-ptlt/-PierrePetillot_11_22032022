@@ -1,0 +1,49 @@
+.error-wrapper {
+    width: 100%;
+    color: #FF6060;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.error-title {
+    margin-top: 0px;
+    font-size: 180px;
+    font-weight: bold;
+}
+
+.error-text {
+    font-size: 40px;
+    margin-top: -80px;
+    font-weight: 400;
+}
+
+.error-link {
+    font-size: 20px;
+    margin-top: 50px;
+    text-decoration: underline;
+    color: #FF6060;
+}
+
+@media screen and (max-width: 768px) {
+    .error-wrapper {
+        width: 110%;
+    }
+
+    .error-title {
+        font-size: 120px;
+    }
+
+    .error-text {
+        font-size: 20px;
+        text-align: center;
+        margin-top: -60px;
+    }
+
+    .error-link {
+        font-size: 16px;
+        margin-top: 30px;
+    }
+}
