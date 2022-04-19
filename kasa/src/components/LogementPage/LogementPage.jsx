@@ -6,6 +6,7 @@ import LogementTags from "./LogementTags";
 import { AiFillStar, AiOutlineStar } from "react-icons/ai";
 import DropdownLogement from "../utils/DropdownLogement";
 import LogementEquipment from "./LogementEquipment";
+import LogementSlideshow from "./LogementSlideshow";
 
 const Rating = (rate, id) => {
 	const rounded = Math.round(rate);
@@ -25,7 +26,9 @@ function LogementPage() {
 	const logement = logements.find((logement) => logement.id === id.id);
 	return (
 		<div className="logement-page-wrapper">
-			<div className="logement-page-image-wrapper"></div>
+			<div className="logement-page-image-wrapper">
+				<LogementSlideshow images={logement.pictures} />
+			</div>
 			<div className="logement-page-details-wrapper">
 				<div className="logement-page-details-col">
 					<h2 className="logement-page-title">{logement.title}</h2>

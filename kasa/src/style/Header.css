@@ -27,7 +27,7 @@
 }
 
 .active {
-    border-bottom: 2px solid #FF6060;
+    text-decoration: underline solid #FF6060;
 }
 
 @media  (max-width: 768px) {

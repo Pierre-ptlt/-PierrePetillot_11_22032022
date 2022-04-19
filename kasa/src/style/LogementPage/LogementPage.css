@@ -5,6 +5,10 @@
     color:#FF6060;;
 }
 
+.logement-page-image-wrapper {
+    width: 100%;
+}
+
 .logement-page-details-wrapper {
     display: flex;
     justify-content: space-between;
