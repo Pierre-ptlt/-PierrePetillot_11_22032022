@@ -57,6 +57,8 @@
 
 .logement-page-host {
     margin-top: 15px;
+    width: 37%;
+    justify-content: space-between;
     align-items: center;
     display: flex;
 }
@@ -64,6 +66,7 @@
 .logement-page-host-name {
     width: 50px;
     font-size: 18px;
+    margin-right: 20px;
 }
 
 .logement-page-host-image {
@@ -104,4 +107,51 @@
 .logement-equipment-wrapper {
     display: flex;
     flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+    .logement-page-wrapper {
+        width: 100%;
+    }
+
+    .logement-page-details-wrapper {
+        margin-top: -70px;
+        flex-direction: column;
+    }
+
+    .logement-page-title {
+        font-size: 26px;
+        width: 80%;
+    }
+
+    .logement-page-details-col {
+        width: 100%;
+    }
+
+    .logement-tag {
+        font-size: 11px;
+    }
+
+    .col2 {
+        align-items: center;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .logement-page-rating {
+        margin-top: 20px;
+    }
+
+    .logement-page-dropdowns-wrapper {
+        flex-direction: column;
+        justify-content: baseline;
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .logement-page-dropdown {
+        width: 102.5%;
+        margin-left: -2.5%;
+    }
+
 }

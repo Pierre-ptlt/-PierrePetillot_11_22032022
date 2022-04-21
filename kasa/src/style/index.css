@@ -1,5 +1,4 @@
 body {
-  margin: 0;
   font-family: 'montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -12,4 +11,10 @@ code {
 
 a {
   text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .home-body {
+    width: 105%;
+  }
 }

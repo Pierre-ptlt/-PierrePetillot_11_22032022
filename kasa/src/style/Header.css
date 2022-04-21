@@ -34,6 +34,7 @@
 
     .header-wrapper {
         padding: 10px;
+        width: 100%;
     }
 
     .logo {
@@ -46,7 +47,7 @@
     }
 
     .nav-item {
-        font-size: 12px;
+        font-size: 15px;
         display: block;
         width: unset;
     }
