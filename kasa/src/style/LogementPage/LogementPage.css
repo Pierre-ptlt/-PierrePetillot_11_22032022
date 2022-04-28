@@ -111,11 +111,11 @@
 
 @media screen and (max-width: 768px) {
     .logement-page-wrapper {
-        width: 100%;
+        width: 90%;
     }
 
     .logement-page-details-wrapper {
-        margin-top: -70px;
+        margin-top: 0px;
         flex-direction: column;
     }
 

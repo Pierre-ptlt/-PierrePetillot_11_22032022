@@ -42,10 +42,19 @@
 }
 
 @media screen and (max-width: 768px) {
+
+    .logement-slideshow-image-wrapper {
+        height: 180px;
+    }
+
+    .logement-slideshow-number {
+        display: none;
+    }
+
     .chevron {
         width: 22px;
         height: 40px;
-        top: 45%;
+        top: 41%;
     }
 
 }

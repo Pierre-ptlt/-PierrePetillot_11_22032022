@@ -1,7 +1,7 @@
 .banner-wrapper {
     position: relative;
     display: flex;
-    padding: 0% 90px;
+    padding: 0% 80px;
     width: 89%;
     height: 223px;
 }
@@ -27,7 +27,7 @@
 
     .banner-wrapper {
         height: 111px;
-        padding: 0% 25px;
+        padding: 0 25px 0 20px;
     }
 
     .banner {

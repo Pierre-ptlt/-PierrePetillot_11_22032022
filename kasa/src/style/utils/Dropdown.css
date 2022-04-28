@@ -48,7 +48,7 @@
 
 @media screen and (max-width: 768px) {
     .dropdown-wrapper {
-        margin-left: 4.5%;
+        margin-left: 2.25%;
         width: 85%;
     }
 
@@ -57,8 +57,8 @@
     }
 
     .dropdown-content {
-        margin-left: 5%;
-        width: 95%;
+        margin-left: 2.5%;
+        width: 94%;
         font-size: 12px;
     }
 }
