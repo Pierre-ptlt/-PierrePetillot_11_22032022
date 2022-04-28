@@ -7,6 +7,7 @@ import { AiFillStar, AiOutlineStar } from "react-icons/ai";
 import DropdownLogement from "../utils/DropdownLogement";
 import LogementEquipment from "./LogementEquipment";
 import LogementSlideshow from "./LogementSlideshow";
+import Error from "../404/Error";
 
 const Rating = (rate, id) => {
 	const rounded = Math.round(rate);
@@ -24,6 +25,9 @@ const Rating = (rate, id) => {
 function LogementPage() {
 	const id = useParams();
 	const logement = logements.find((logement) => logement.id === id.id);
+	if (!logement) {
+		return <Error />;
+	}
 	return (
 		<div className="logement-page-wrapper">
 			<div className="logement-page-image-wrapper">
