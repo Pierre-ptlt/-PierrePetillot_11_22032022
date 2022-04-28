@@ -5,6 +5,7 @@
 }
 
 .logo {
+    margin-left: 20px;
     width: 200px;
     height: 100px;
 }
@@ -38,6 +39,7 @@
     }
 
     .logo {
+        margin-left: unset;
         width: 145px;
         height: 70px;
     }
