@@ -1,13 +1,13 @@
-import logements from "../../data/logements.json";
+import logements from "../data/logements.json";
 import { useParams } from "react-router-dom";
-import "../../style/LogementPage/LogementPage.css";
-import "../../style/utils/Dropdown.css";
-import LogementTags from "./LogementTags";
+import "../style/LogementPage/LogementPage.css";
+import "../style/utils/Dropdown.css";
+import LogementTags from "../components/LogementPage/LogementTags";
 import { AiFillStar, AiOutlineStar } from "react-icons/ai";
-import DropdownLogement from "../utils/DropdownLogement";
-import LogementEquipment from "./LogementEquipment";
-import LogementSlideshow from "./LogementSlideshow";
-import Error from "../404/Error";
+import DropdownLogement from "../components/utils/DropdownLogement";
+import LogementEquipment from "../components/LogementPage/LogementEquipment";
+import LogementSlideshow from "../components/LogementPage/LogementSlideshow";
+import Error from "../components/404/Error";
 
 const Rating = (rate, id) => {
 	const rounded = Math.round(rate);

@@ -4,7 +4,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import About from "./components/About/About";
 import Error from "./components/404/Error";
-import LogementPage from "./components/LogementPage/LogementPage";
+import LogementPage from "./views/LogementPage";
 
 function App() {
 	return (
